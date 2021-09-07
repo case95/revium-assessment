@@ -64,7 +64,11 @@ const Header = () => {
       expanded={isExpanded}
     >
       <Container className="p-4 bg-light container-shadow">
-        <Link to="/" className="logo">
+        <Link
+          to="/"
+          className="logo"
+          onClick={() => setIsExpanded((_) => false)}
+        >
           <Logo src="/assets/logo.png" alt="Logo" dimension="md" />
         </Link>
         <Navbar.Toggle
