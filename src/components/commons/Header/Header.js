@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav, Button, Container } from "react-bootstrap";
 
+import Logo from "../Logo/Logo.js";
+
 import "./Header.css";
 
 const Header = () => {
@@ -62,6 +64,9 @@ const Header = () => {
       expanded={isExpanded}
     >
       <Container className="p-4 bg-light container-shadow">
+        <Link to="/" className="logo">
+          <Logo src="/assets/logo.png" alt="Logo" dimension="md" />
+        </Link>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           className="bg-white"
