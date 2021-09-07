@@ -15,4 +15,6 @@ https://github.com/react-bootstrap/react-bootstrap/issues/5143
 "findDOMNode is deprecated in StrictMode.".
 On StackOverflow I've read that it's a common issue and can be fixed by setting the opening/closing animation to "false", but this solution seemed not to work on my project.
 I implemented a little feature on the header to improve the UX: it shows/hide the Header depending on the scroll direction.
-To do this i had to override a couple of default behaviours of react-bootstrap responsive Nav and by overriding these dafault behaviours I've also removed the warning. #serendipity 😃
+To do this I had to override a couple of default behaviours of react-bootstrap responsive Nav and by overriding these dafault behaviours I've also removed the warning. #serendipity 😃
+
+-It wasn't requested but I've added a Logo component to simulate the behaviour of a brand logo in the header.
