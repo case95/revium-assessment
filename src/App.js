@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+import Header from "./components/commons/Header/Header";
 // importing pages layouts
 import Home from "./components/Layouts/Home";
 import About from "./components/Layouts/About";
@@ -10,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <Router>
+      <Header />
       <Switch>
         <Route exact path="/">
           <Home />
