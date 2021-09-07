@@ -1,4 +1,4 @@
-# revium-assestment
+# revium-assessment
 
 In this readme I will write all the informations regarding the development process.
 
